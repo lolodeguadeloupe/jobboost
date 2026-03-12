@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import {
-  Zap, LayoutDashboard, FileText, Plus, FileUser,
+  Zap, LayoutDashboard, FileText, Plus, UserCheck,
   Settings, Menu, X, User
 } from 'lucide-react'
 
@@ -11,7 +11,7 @@ const NAV_ITEMS = [
   { label: 'Dashboard',             href: '/dashboard',                icon: LayoutDashboard },
   { label: 'Candidatures',          href: '/dashboard/candidatures',   icon: FileText },
   { label: 'Nouvelle candidature',  href: '/dashboard/apply',          icon: Plus },
-  { label: 'Mon CV',                href: '/dashboard/cv',             icon: FileUser },
+  { label: 'Mon CV',                href: '/dashboard/cv',             icon: UserCheck },
   { label: 'Paramètres',            href: '/dashboard/settings',       icon: Settings },
 ]
 
